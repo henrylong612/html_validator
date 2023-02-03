@@ -13,7 +13,7 @@ def validate_html(html):
     '''
 
     # HINT:
-    # use the _extract_tags function below to 
+    # use the _extract_tags function below to
     # generate a list of html tags without any extra text;
     # then process these html tags using the balanced
     # parentheses algorithm from the class/book
@@ -41,7 +41,7 @@ def validate_html(html):
 def _extract_tags(html):
     '''
     This is a helper function for `validate_html`.
-    By convention in Python, helper functions that are not meant 
+    By convention in Python, helper functions that are not meant
     to be used directly by the user are prefixed with an underscore.
 
     This function returns a list of all the html tags
